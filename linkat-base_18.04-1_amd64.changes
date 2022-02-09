@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 26 Mar 2018 10:20:45 +0200
+Source: linkat-base
+Binary: linkat-base
+Architecture: source all
+Version: 18.04-1
+Distribution: bionic
+Urgency: medium
+Maintainer: Pablo Vigo <pvigo@xtec.cat>
+Changed-By: Pablo Vigo <pvigo@xtec.cat>
+Description:
+ linkat-base - Configuració base de la Linkat.
+Changes:
+ linkat-base (18.04-1) bionic; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 4c3226ffe9233b61619f29016941efc5f48dcac7 1370 linkat-base_18.04-1.dsc
+ b61de008cece741ebdd99a62a72f3d7df33bce3c 2144 linkat-base_18.04.orig.tar.bz2
+ cff3eae97f6c5fdfe90677d80478eb8f3514f065 2456 linkat-base_18.04-1.debian.tar.xz
+ 3d26b5eeab378ed4de5e50c1a8246467f50eb480 4680 linkat-base_18.04-1_all.deb
+ 60e301e406b26db6d86659884497a35477884a8d 5888 linkat-base_18.04-1_amd64.buildinfo
+Checksums-Sha256:
+ 140eca307b3fc9c6f4c57bc1e4f1e99ed40e75410af55a22f69ad9a6577d19ae 1370 linkat-base_18.04-1.dsc
+ faf05eabe1091c74bcf17ef4d080fa4fa0581e96d2c9afa8dccd58b381029e7d 2144 linkat-base_18.04.orig.tar.bz2
+ c4ebbaddf61de9fd2b30d5ccb40be410235ad8f22eb1e35426f5f514ab4b2509 2456 linkat-base_18.04-1.debian.tar.xz
+ e9a84fc0d6a54b00a3e213d20d271ac02a94e77e16d67b460d567d9893c69198 4680 linkat-base_18.04-1_all.deb
+ d07081dbb32c6e9d4c2d044764001c353940c78845e9c8a34ab47ae531010036 5888 linkat-base_18.04-1_amd64.buildinfo
+Files:
+ 8e05925eb9391631c4e64fb05de73fd2 1370 linkat optional linkat-base_18.04-1.dsc
+ 0c0fe62770ab08edfc21dddfab2d5727 2144 linkat optional linkat-base_18.04.orig.tar.bz2
+ 494427255233aabfdf54f2f3de373d23 2456 linkat optional linkat-base_18.04-1.debian.tar.xz
+ df2a67eda82b129ee1eb70eb2cabf995 4680 linkat optional linkat-base_18.04-1_all.deb
+ 2fc0c0736474c677a16c430d3621af95 5888 linkat optional linkat-base_18.04-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEvcUgo00pEkyGB1i1ML0PhOLZqQkFAlq42nYACgkQML0PhOLZ
+qQmk+Af+IpJEf99d9snEfSlSz1xMWmm/SbxEs/IqDHs50kA2IsOiUX8wqPNRY/p6
++Rf6//VeJXf3VlW1gY1d++WolLGGPNPdXdIDgynOPfsF1Hb2aU2Fyk5qzAB20r+P
+7ujI6mq1EnDrrU/G5bKocBNLIdg5KM36KAH6htR9Va09VBm8Vmg3Utrz90WNCRyu
+Ybn1glzgttFm/VZPGietpmU52YrVaR8lO/vNC2CqsvOCIpmqe1vi1ge/8s7dSsMF
+3VW00BcmkYvllmyjqF/1dToONIST+L6FuchayJ2SrZ642iUChxFyG+pAM2t6TpKc
+byE4ByZC8fPBHLgq3RrY9BbNlqsXDg==
+=l31p
+-----END PGP SIGNATURE-----

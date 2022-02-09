@@ -1,0 +1,11 @@
+Package: linkat-base
+Version: 18.04-3
+Architecture: all
+Maintainer: Pablo Vigo <pvigo@xtec.cat>
+Installed-Size: 19
+Depends: linkat-mp-base, linkat-gestor, metacity, linkat-repos, linkat-artwork
+Section: linkat
+Priority: optional
+Homepage: http://linkat.xtec.cat
+Description: Configuració base de la Linkat.
+ Paquet de configuració de la Linkat.

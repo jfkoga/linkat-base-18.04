@@ -1,0 +1,6 @@
+#!/bin/bash
+
+LOGBASE=/var/log/linkat-base.log
+
+#Compila el nou tema de la Linkat edu
+/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/ >> $LOGBASE

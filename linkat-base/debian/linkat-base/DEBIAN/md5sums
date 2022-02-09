@@ -1,0 +1,5 @@
+93b7e9037ce647aa85b046f19507eadc  usr/share/doc/linkat-base/README.Debian
+34ff69e782553142bf89eb9ddc174c81  usr/share/doc/linkat-base/changelog.Debian.gz
+20f27d515aa3ebe95c3cf8f1198d18d0  usr/share/doc/linkat-base/copyright
+ed74f291229724672b293e6998ca924d  usr/share/glib-2.0/schemas/40_linkat.gschema.override
+540da1a39b1e327e71cfe937398766f7  usr/share/lightdm/lightdm.conf.d/70-gnome-flashback-metacity.conf

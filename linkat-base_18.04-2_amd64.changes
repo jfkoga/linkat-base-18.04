@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 26 Mar 2018 10:20:45 +0200
+Source: linkat-base
+Binary: linkat-base
+Architecture: source all
+Version: 18.04-2
+Distribution: bionic
+Urgency: medium
+Maintainer: Pablo Vigo <pvigo@xtec.cat>
+Changed-By: Pablo Vigo <pvigo@xtec.cat>
+Description:
+ linkat-base - Configuració base de la Linkat.
+Changes:
+ linkat-base (18.04-2) bionic; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 8d670dcbbf8ea4a7f960fb6eda1bcc3988be2d86 1370 linkat-base_18.04-2.dsc
+ b61de008cece741ebdd99a62a72f3d7df33bce3c 2144 linkat-base_18.04.orig.tar.bz2
+ 77f865523d4a67361f4bcb129abbfceb9a7eebd2 3436 linkat-base_18.04-2.debian.tar.xz
+ 4d75bc52cfb78c156813765b84c1b1890f96f339 3296 linkat-base_18.04-2_all.deb
+ 9b7ff9f6c0ee6a710154fb5e0a2a0b51c5f2203c 5710 linkat-base_18.04-2_amd64.buildinfo
+Checksums-Sha256:
+ 0e2f9ada58cb578d84e0385efa721264a1dd49c37f775d1ba8dbe9dcac113c0e 1370 linkat-base_18.04-2.dsc
+ faf05eabe1091c74bcf17ef4d080fa4fa0581e96d2c9afa8dccd58b381029e7d 2144 linkat-base_18.04.orig.tar.bz2
+ 6fc4bf41ae1d9651b85bf4b2eeadee68336634b395595f20dcc5d7f8fd5d8f41 3436 linkat-base_18.04-2.debian.tar.xz
+ 5a371a684169a7de22bde853a0921753167cdbc8d860454dcfbbb6f7b99fdd41 3296 linkat-base_18.04-2_all.deb
+ 0086cb71c7701c61cead71504dd80b8f949798ec95025bad5db8eefc5193e7f7 5710 linkat-base_18.04-2_amd64.buildinfo
+Files:
+ 5fc24c56ebd76b5908074fa7fbc4b1fb 1370 linkat optional linkat-base_18.04-2.dsc
+ 0c0fe62770ab08edfc21dddfab2d5727 2144 linkat optional linkat-base_18.04.orig.tar.bz2
+ fecded6939a6d3ccfefc4a90a9f5fe56 3436 linkat optional linkat-base_18.04-2.debian.tar.xz
+ f2dd3fe1dd169ba18d3a3e9361da56e6 3296 linkat optional linkat-base_18.04-2_all.deb
+ 87733b482310b7542d5c6ca4209f0e14 5710 linkat optional linkat-base_18.04-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEvcUgo00pEkyGB1i1ML0PhOLZqQkFAlrEtKoACgkQML0PhOLZ
+qQnCIQf9E8Vj45g5q6l0qo9VDf3kTntLn/i4EYxQEJkgu4cy7f3vmlaAOXt7G/0A
+CxIfFOBTO7SYm9s53EKiDWyZpN2qwn2I/FsjGYseJeJYtnyt0JsunfVMfYl/xiyA
+yCFC0bxD9t7SQl3j3XWUc71v+LN46eB0ACw+9Qv2ch/uiHs/krY70tOpcyk64R69
+H/j6T5GfginHXDIrdQuoNp1X+1MzKOns1rjtekLUGmFSroJOuj3Rx9Jo1V7OZJFg
+PfO/wyLYwz0VtzaDj10MoG8KKW8ISRIKlZMkKmctxs/PEca3lPxvxz4s2gtAIr5O
+pMOCeRY1zkrQSN1x9NBbD3GegMOPBA==
+=hHaT
+-----END PGP SIGNATURE-----

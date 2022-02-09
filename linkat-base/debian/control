@@ -1,0 +1,13 @@
+Source: linkat-base
+Section: linkat
+Priority: optional
+Maintainer: Pablo Vigo <pvigo@xtec.cat>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://linkat.xtec.cat
+
+Package: linkat-base
+Architecture: all
+Depends: linkat-mp-base, linkat-gestor, metacity, linkat-repos, linkat-artwork 
+Description: Configuració base de la Linkat.
+ Paquet de configuració de la Linkat.

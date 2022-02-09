@@ -1,0 +1,2 @@
+70-gnome-flashback-metacity.conf usr/share/lightdm/lightdm.conf.d/
+40_linkat.gschema.override usr/share/glib-2.0/schemas/

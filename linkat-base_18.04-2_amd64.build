@@ -1,0 +1,82 @@
+ dpkg-buildpackage -rfakeroot -us -uc -ui
+dpkg-buildpackage: info: source package linkat-base
+dpkg-buildpackage: info: source version 18.04-2
+dpkg-buildpackage: info: source distribution bionic
+dpkg-buildpackage: info: source changed by Pablo Vigo <pvigo@xtec.cat>
+ dpkg-source --before-build linkat-base
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b linkat-base
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building linkat-base using existing ./linkat-base_18.04.orig.tar.bz2
+dpkg-source: warning: ignoring deletion of file install_base.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file 95_linkat-theme, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file base1.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file 95_gsettings-desktop-schemas.gschema.override, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file base2.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file 95_nautilus.gschema.override, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file 95_ubuntu-artwork.gschema.override, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file rc.local, use --include-removal to override
+dpkg-source: info: building linkat-base in linkat-base_18.04-2.debian.tar.xz
+dpkg-source: info: building linkat-base in linkat-base_18.04-2.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installgsettings
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: package linkat-base: unused substitution variable ${misc:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'linkat-base' in '../linkat-base_18.04-2_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../linkat-base_18.04-2_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build linkat-base
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian linkat-base_18.04-2_amd64.changes ...
+E: linkat-base source: readme-source-is-dh_make-template
+W: linkat-base source: debhelper-but-no-misc-depends linkat-base
+W: linkat-base source: maintainer-script-lacks-debhelper-token debian/postinst
+W: linkat-base source: maintainer-script-lacks-debhelper-token debian/postrm
+E: linkat-base source: debian-rules-is-dh_make-template
+W: linkat-base source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 5)
+W: linkat-base: wrong-bug-number-in-closes l3:#nnnn
+E: linkat-base: changelog-is-dh_make-template
+E: linkat-base: helper-templates-in-copyright
+W: linkat-base: copyright-has-url-from-dh_make-boilerplate
+E: linkat-base: copyright-contains-dh_make-todo-boilerplate
+W: linkat-base: readme-debian-contains-debmake-template
+W: linkat-base: unknown-section linkat
+W: linkat-base: command-with-path-in-maintainer-script postinst:6 /usr/bin/glib-compile-schemas
+W: linkat-base: maintainer-script-ignores-errors postinst
+W: linkat-base: maintainer-script-ignores-errors postrm
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc linkat-base_18.04-2.dsc E2D9A909
+
+ fixup_buildinfo linkat-base_18.04-2.dsc linkat-base_18.04-2_amd64.buildinfo
+ signfile buildinfo linkat-base_18.04-2_amd64.buildinfo E2D9A909
+
+ fixup_changes dsc linkat-base_18.04-2.dsc linkat-base_18.04-2_amd64.changes
+ fixup_changes buildinfo linkat-base_18.04-2_amd64.buildinfo linkat-base_18.04-2_amd64.changes
+ signfile changes linkat-base_18.04-2_amd64.changes E2D9A909
+
+Successfully signed dsc, buildinfo, changes files

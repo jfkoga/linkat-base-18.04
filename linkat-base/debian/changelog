@@ -1,0 +1,5 @@
+linkat-base (18.04-3) bionic; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Pablo Vigo <pvigo@xtec.cat>  Mon, 26 Mar 2018 10:20:45 +0200

@@ -1,0 +1,7 @@
+[org.gnome.nautilus.desktop]
+home-icon-visible=true
+trash-icon-visible=true
+trash-icon-name='Paperera'
+volumes-visible=true
+network-icon-visible=true
+network-icon-name='Entorn de Xarxa'

@@ -1,0 +1,79 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ linkat-base (18.04-2) bionic; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Pablo Vigo <pvigo@xtec.cat>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2018-04-04
+
+--- /dev/null
++++ linkat-base-18.04/40_linkat.gschema.override
+@@ -0,0 +1,51 @@
++[org.gnome.desktop.background]
++show-desktop-icons=true
++picture-uri='file:///usr/share/linkat/linkat-artwork/Linkat-Wall.png'
++
++[org.gnome.desktop.wm.keybindings]
++minimize = ['<Primary><Alt>KP_0']
++move-to-corner-ne = ['<Primary><Alt>KP_Prior']
++move-to-corner-nw = ['<Primary><Alt>KP_Home']
++move-to-corner-se = ['<Primary><Alt>KP_Next']
++move-to-corner-sw = ['<Primary><Alt>KP_End']
++move-to-side-e = ['<Primary><Alt>KP_Right']
++move-to-side-n = ['<Primary><Alt>KP_Up']
++move-to-side-s = ['<Primary><Alt>KP_Down']
++move-to-side-w = ['<Primary><Alt>KP_Left']
++toggle-maximized = ['<Super>Up','<Primary><Super>Up','<Primary><Alt>KP_5']
++toggle-shaded = ['<Primary><Alt>s']
++unmaximize = ['<Super>Down','<Alt>F5','<Primary><Super>Down']
++show-desktop = ['<Primary><Alt>d','<Primary><Super>d','<Super>d']
++
++[org.gnome.desktop.wm.preferences]
++theme='Radiance'
++button-layout=":minimize,maximize,close"
++
++[org.gnome.desktop.screensaver]
++picture-uri='file:///usr/share/linkat/linkat-artwork/Linkat-Wall.png'
++
++[org.gnome.desktop.interface:GNOME-Flashback]
++gtk-theme='Radiance'
++icon-theme='ubuntu-mono-light'
++cursor-theme='DMZ-White'
++font-name='Ubuntu 11'
++monospace-font-name='Ubuntu Mono 13'
++
++[org.gnome.desktop.session]
++session-name = 'gnome-flashback-metacity'
++
++[com.canonical.unity-greeter]
++background='/usr/share/linkat/linkat-artwork/Linkat-Wall.png'
++
++[org.gnome.nautilus.desktop]
++home-icon-visible=true
++trash-icon-visible=true
++trash-icon-name='Paperera'
++volumes-visible=true
++network-icon-visible=true
++network-icon-name='Entorn de Xarxa'
++
++[org.gnome.Empathy.conversation]
++theme="adium"
++theme-variant="Normal"
++adium-path="/usr/share/adium/message-styles/ubuntu.AdiumMessageStyle"
